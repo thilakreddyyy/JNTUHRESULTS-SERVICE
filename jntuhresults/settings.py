@@ -40,16 +40,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "jntuhresults.urls"
-CORS_ALLOWED_ORIGINS = [
-    "https://jntuhresults.vercel.app",
-    "https://jntuh-results.vercel.app",
-    "https://jntuh-result.vercel.app",
-    "https://jntuhbtechresults.vercel.app",
-    "https://jntuhbtechresult.vercel.app",
-    "https://jnturesults.vercel.app",
-    "https://jntuh-btech-results.vercel.app",
-    "http://localhost:3000"
-]
+CORS_ORIGIN_ALLOW_ALL = True
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
